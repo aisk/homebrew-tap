@@ -1,9 +1,9 @@
 class Timeout < Formula
   desc ""
   homepage "https://github.com/aisk/timeout"
-  url "https://github.com/aisk/timeout/archive/refs/tags/v0.0.1.tar.gz"
+  url "https://github.com/aisk/timeout/archive/refs/tags/v0.0.2.tar.gz"
   head "https://github.com/aisk/timeout.git", branch: "master"
-  sha256 "4e927e0b10b5f2a20193b8bc237cda32c544820a43b3ac30cb58992cf2df0b16"
+  sha256 "907de04f999b7365ce13028b09f4a2eb7320d8b8266824be45a98810eda902e7"
   license "GPL-3.0"
 
   depends_on "ghc"
