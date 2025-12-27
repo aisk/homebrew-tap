@@ -6,10 +6,10 @@ class Timeout < Formula
   head "https://github.com/aisk/timeout.git", branch: "master"
   license "GPL-3.0"
 
-  depends_on "ghc"
+  depends_on "ghc" => :build
 
   def install
-    system "make"
+    system "make", "GHC_FLAGS=-static -threaded -Wall"
     bin.install "timeout"
   end
 
