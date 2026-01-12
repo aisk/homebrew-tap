@@ -1,8 +1,8 @@
 class Timeout < Formula
   desc "Simple timeout command implementation"
   homepage "https://github.com/aisk/timeout"
-  url "https://github.com/aisk/timeout/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "759e441506912632c6a27311edd5f167ce8f004d8a3ac2c408f58453e0f47be7"
+  url "https://github.com/aisk/timeout/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "94edef9eae4c21a36be42b2769b5b2b6b2fc57f73590096ef12eaff33de6ee71"
   head "https://github.com/aisk/timeout.git", branch: "master"
   license "GPL-3.0"
 
