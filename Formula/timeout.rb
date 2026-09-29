@@ -7,6 +7,9 @@ class Timeout < Formula
   head "https://github.com/aisk/timeout.git", branch: "master"
 
   depends_on "ghc" => :build
+  depends_on "gmp"
+
+  uses_from_macos "libffi"
 
   def install
     system "make", "GHC_FLAGS=-static -threaded -Wall"
