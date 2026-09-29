@@ -18,5 +18,6 @@ class Timeout < Formula
 
   test do
     system bin/"timeout", "1", "true"
+    shell_output("#{bin}/timeout 1 sleep 5", 124)
   end
 end
